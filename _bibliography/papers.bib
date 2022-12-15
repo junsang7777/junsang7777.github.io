@@ -6,11 +6,24 @@
     author    = {Lee, Hongjae and Park, Jinbum and Wooseok Jeong and Jung, Seung-Won},
     journal   = {Optics Letters},
     year      = {2022},
-    abstract  = {Due to the scale ambiguity problem, the performance  of monocular depth estimation (MDE) is inherently restricted. Multi-camera systems, especially those equipped with active depth cameras, have addressed this problem at the expense of increased hardware costs and space. In this Letter, we adopt a similar but costeffective solution using only single-pixel depth guidance with a single-photon avalanche diode. To this end, we design a single-pixel guidance module (SPGM) that combines the global information from the single-pixel depth guidance with the spatial information from the image at the feature level. By integrating SPGMs into an MDE network, we introduce PhoMoNet, the first end-to-end MDE network with single-pixel depth guidance. Experimental results show the effectiveness and superiority of PhoMoNet over state-of-the-art MDE networks on synthetic and real-world datasets.}
+    abstract  = {Due to the scale ambiguity problem, the performance  of monocular depth estimation (MDE) is inherently restricted. Multi-camera systems, especially those equipped with active depth cameras, have addressed this problem at the expense of increased hardware costs and space. In this Letter, we adopt a similar but costeffective solution using only single-pixel depth guidance with a single-photon avalanche diode. To this end, we design a single-pixel guidance module (SPGM) that combines the global information from the single-pixel depth guidance with the spatial information from the image at the feature level. By integrating SPGMs into an MDE network, we introduce PhoMoNet, the first end-to-end MDE network with single-pixel depth guidance. Experimental results show the effectiveness and superiority of PhoMoNet over state-of-the-art MDE networks on synthetic and real-world datasets.},
     abbr      = {Optics},
     code      = {https://github.com/jimmy9704/PhoMoNet},
     selected  = {true},
     img_path  = {assets/img/phomonet.png}
+}
+
+@article{lee2022gpsglass,
+    title     = {GPS-GLASS: Learning Nighttime Semantic Segmentation Using Daytime Video and GPS data}, 
+    author    = {Lee, Hongjae and Han, Changwoo and Jung, Seung-Won},
+    journal   = {arXiv},
+    year      = {2022},
+    abstract  = {Semantic segmentation for autonomous driving should be robust against various in-the-wild environments. Nighttime semantic segmentation is especially challenging due to a lack of annotated nighttime images and a large domain gap from daytime images with sufficient annotation. In this paper, we propose a novel GPS-based training framework for nighttime semantic segmentation. Given GPS-aligned pairs of daytime and nighttime images, we perform cross-domain correspondence matching to obtain pixel-level pseudo supervision. Moreover, we conduct flow estimation between daytime video frames and apply GPS-based scaling to acquire another pixel-level pseudo supervision. Using these pseudo supervisions with a confidence map, we train a nighttime semantic segmentation network without any annotation from nighttime images. Experimental results demonstrate the effectiveness of the proposed method on several nighttime semantic segmentation datasets.},
+    abbr      = {arXiv},
+    code      = {https://github.com/jimmy9704/GPS-GLASS},
+    selected  = {true},
+    arxiv     = {2207.13297},
+    img_path  = {assets/img/gps_glass.png}
 }
 
 @article{lee2021plane,
