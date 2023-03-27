@@ -19,10 +19,11 @@ honors: false
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a graduate student in the [Deep Image Processing Lab](https://sites.google.com/view/deepiplab/home?authuser=0), advised by Prof. [Seung-Won Jung](https://sites.google.com/view/deepiplab/home?authuser=0). I am currently pursuing the MS & Ph.D degree in Electrical Engineering at [Korea University](www.korea.ac.kr) in Seoul, Korea. Previously, I completed my B.S. in Electronic Engineering at [Kyunghee University](https://www.khu.ac.kr/kor/main/index.do). My research interests are :
+I am a graduate student in the [Deep Image Processing Lab](https://sites.google.com/view/deepiplab/home?authuser=0), advised by Prof. [Seung-Won Jung](https://sites.google.com/view/deepiplab/home?authuser=0). I am currently pursuing the MS & Ph.D degree in Electrical Engineering at [Korea University](www.korea.ac.kr) in Seoul, Korea. Previously, I completed my B.S. in Electronic Engineering at [Kyunghee University](https://www.khu.ac.kr/kor/main/index.do). My research interests are including :
 - Computer Vision
 - Deep Learning
-- Domain Adaptation
+- Information Fusion
+but not limited to.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
