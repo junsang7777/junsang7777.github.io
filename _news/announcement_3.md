@@ -4,4 +4,4 @@ date: 2023-7-17
 inline: true
 ---
 
-📄️ One paper got accepted to ICCV 2023
+🎉 One paper got accepted to ICCV 2023 🇫🇷
