@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-12-15
+date: 2023-7-17
 inline: true
 ---
 
-📄️ One paper has been accepted for publication in Optics Letters.
+🎉 One paper got accepted to ICCV 2023 🇫🇷
