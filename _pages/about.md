@@ -19,7 +19,7 @@ honors: false
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a graduate student in the [Deep Image Processing Lab](https://sites.google.com/view/deepiplab/home?authuser=0), advised by Prof. [Seung-Won Jung](https://sites.google.com/view/deepiplab/home?authuser=0). I am currently pursuing the MS & Ph.D degree in Electrical Engineering at [Korea University](www.korea.ac.kr) in Seoul, Korea. Previously, I completed my B.S. in Electronic Engineering at [Konkuk University](https://www.konkuk.ac.kr/). My research interests are including :
+I am a graduate student in the [Deep Image Processing Lab](https://sites.google.com/view/deepiplab/home?authuser=0), advised by Prof. [Seung-Won Jung](https://sites.google.com/view/deepiplab/home?authuser=0). I am currently pursuing the MS & Ph.D degree in Electrical Engineering at [Korea University](https://www.korea.ac.kr) in Seoul, Korea. Previously, I completed my B.S. in Electronic Engineering at [Konkuk University](https://www.konkuk.ac.kr/). My research interests are including :
 - Computer Vision
 - Deep Learning
 
