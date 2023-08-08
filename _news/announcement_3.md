@@ -4,4 +4,4 @@ date: 2023-8-7
 inline: true
 ---
 
-Two paper got accepted to ICCV 2023 🇫🇷 BRAVO 🚙 and NIVT 🤖 workshop 
+Two papers got accepted to ICCVW 2023 🇫🇷 BRAVO 🚙 and NIVT 🤖 workshop 
