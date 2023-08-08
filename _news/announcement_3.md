@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023-7-17
+date: 2023-8-7
 inline: true
 ---
 
-🎉 One paper got accepted to ICCV 2023 🇫🇷
+Two paper got accepted to ICCV 2023 🇫🇷 BRAVO 🚙 and NIVT 🤖 workshop 
