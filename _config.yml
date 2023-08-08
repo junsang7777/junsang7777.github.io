@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Hongjae
+first_name: Jun-Sang
 middle_name: 
-last_name: Lee
-email: jimmy9704@korea.ac.kr
+last_name: Yoo
+email: junsang7777@korea.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -55,12 +55,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: jimmy9704
+github_username: junsang7777
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: gh526vMAAAAJ
-orcid_id: 0000-0001-5312-139X
+scholar_userid: PNm8ZUYAAAAJ
+orcid_id: 0000-0001-9053-699X
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -69,7 +69,7 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
+dblp_url: 184/3613-2
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
@@ -207,8 +207,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Lee
-  first_name: [Hongjae]
+  last_name: Yoo
+  first_name: [Jun-Sang]
 
   style: ieee
   locale: en
