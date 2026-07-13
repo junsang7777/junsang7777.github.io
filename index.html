@@ -5,18 +5,270 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Jun-Sang Yoo · Computer Vision &amp; Multimodal Researcher</title>
-<meta content="Jun-Sang Yoo is a computer vision researcher at Korea University working across low-level image restoration, video understanding, human-centered vision, and multimodal learning with language models." name="description"/>
+<meta content="Jun-Sang Yoo is a computer vision researcher at Korea University connecting low-level image restoration, video understanding, human-centered vision, and multimodal learning with language models." name="description"/>
 <meta content="Jun-Sang Yoo" name="author"/>
 <meta content="#0d3344" name="theme-color"/>
 <link href="https://junsang7777.github.io/" rel="canonical"/>
 <meta content="Jun-Sang Yoo · Computer Vision &amp; Multimodal Researcher" property="og:title"/>
-<meta content="Research spanning image, video, human-centered vision, and multimodal learning." property="og:description"/>
+<meta content="Research across images, video, human behavior, and language." property="og:description"/>
 <meta content="website" property="og:type"/>
 <meta content="https://junsang7777.github.io/" property="og:url"/>
 <meta content="https://junsang7777.github.io/assets/img/profile.webp" property="og:image"/>
 <link href="/assets/img/favicon.svg" rel="icon" type="image/svg+xml"/>
 <link href="/site.webmanifest" rel="manifest"/>
-<link href="/assets/css/site.css" rel="stylesheet"/>
+<link href="/assets/css/site.css" rel="stylesheet"/><style id="home-v5-styles">
+/* Home v5: self-contained hero and research spectrum styles.
+   Kept in index.html so the redesign works with a single GitHub web edit. */
+.home-v5 {
+  position: relative;
+  min-height: calc(100svh - var(--header-height));
+  padding-top: clamp(58px, 6.5vw, 86px);
+  padding-bottom: clamp(68px, 7vw, 92px);
+  background: linear-gradient(180deg, rgba(255,255,255,.2), transparent 72%);
+}
+.home-v5 .hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(360px, 424px);
+  align-items: center;
+  gap: clamp(48px, 6.4vw, 88px);
+}
+.home-v5 .hero-identity { margin-bottom: 24px; }
+.home-v5 .hero-copy h1 {
+  margin-bottom: 22px;
+  font-size: clamp(4.15rem, 6.35vw, 5.8rem);
+}
+.home-v5 .hero-statement {
+  max-width: 730px;
+  margin: 0 0 22px;
+  color: var(--ink);
+  font-size: clamp(1.42rem, 2.12vw, 1.82rem);
+  font-weight: 570;
+  line-height: 1.34;
+  letter-spacing: -.038em;
+}
+.home-v5 .hero-statement strong {
+  color: var(--brand);
+  font-weight: 790;
+}
+.home-v5 .hero-lede {
+  max-width: 720px;
+  margin-bottom: 26px;
+  color: var(--ink-2);
+  font-size: clamp(1rem, 1.22vw, 1.08rem);
+  line-height: 1.78;
+}
+.home-v5 .hero-actions { margin-top: 26px; }
+
+.research-spectrum-card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: 0 26px 64px rgba(16,35,43,.11);
+}
+.research-spectrum-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 22px;
+  right: 22px;
+  height: 3px;
+  border-radius: 0 0 999px 999px;
+  background: linear-gradient(90deg, #0d655f, #32a896 62%, #d77743);
+}
+.spectrum-profile {
+  display: grid;
+  grid-template-columns: 94px minmax(0, 1fr);
+  align-items: center;
+  gap: 17px;
+  padding: 7px 0 21px;
+  border-bottom: 1px solid var(--line);
+}
+.spectrum-portrait {
+  width: 94px;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: #dcedf1;
+}
+.spectrum-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 28%;
+}
+.spectrum-profile-copy { min-width: 0; }
+.spectrum-profile-copy .profile-label {
+  display: block;
+  margin-bottom: 7px;
+  color: var(--brand);
+  font-size: .64rem;
+  font-weight: 850;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.spectrum-profile-copy strong {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--ink);
+  font-size: 1.17rem;
+  line-height: 1.2;
+  letter-spacing: -.025em;
+}
+.spectrum-profile-copy p {
+  margin: 0 0 4px;
+  color: var(--ink-2);
+  font-size: .8rem;
+  line-height: 1.45;
+}
+.spectrum-profile-copy small {
+  display: block;
+  color: var(--muted);
+  font-size: .7rem;
+  line-height: 1.45;
+}
+.spectrum-heading {
+  display: grid;
+  gap: 2px;
+  padding: 20px 1px 10px;
+}
+.spectrum-heading span {
+  color: var(--ink);
+  font-size: .72rem;
+  font-weight: 850;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.spectrum-heading small {
+  color: var(--muted);
+  font-size: .71rem;
+}
+.spectrum-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.spectrum-list li {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 11px;
+  min-height: 63px;
+  border-top: 1px solid var(--line);
+}
+.spectrum-index {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  color: var(--brand-strong);
+  background: var(--teal-soft);
+  font-size: .64rem;
+  font-weight: 850;
+  letter-spacing: .04em;
+}
+.spectrum-copy {
+  display: grid;
+  min-width: 0;
+  gap: 1px;
+}
+.spectrum-copy strong {
+  color: var(--ink);
+  font-size: .93rem;
+  line-height: 1.25;
+  letter-spacing: -.016em;
+}
+.spectrum-copy small {
+  color: var(--muted);
+  font-size: .7rem;
+  line-height: 1.4;
+}
+.spectrum-tag {
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--surface-2);
+  font-size: .59rem;
+  font-weight: 820;
+  letter-spacing: .075em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.spectrum-note {
+  display: grid;
+  gap: 2px;
+  margin-top: 16px;
+  padding: 13px 14px;
+  border-radius: 14px;
+  background: var(--surface-2);
+}
+.spectrum-note strong {
+  color: var(--ink);
+  font-size: .78rem;
+  line-height: 1.35;
+}
+.spectrum-note span {
+  color: var(--ink-2);
+  font-size: .73rem;
+  line-height: 1.48;
+}
+html[data-theme="dark"] .home-v5 {
+  background: linear-gradient(180deg, rgba(255,255,255,.015), transparent 72%);
+}
+html[data-theme="dark"] .research-spectrum-card {
+  background: var(--surface);
+  box-shadow: 0 30px 76px rgba(0,0,0,.3);
+}
+html[data-theme="dark"] .spectrum-portrait { background: #cbe7ee; }
+
+@media (max-width: 980px) {
+  .home-v5 .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 46px;
+  }
+  .research-spectrum-card {
+    width: min(100%, 620px);
+    justify-self: center;
+  }
+}
+@media (max-width: 760px) {
+  .home-v5 {
+    padding-top: 54px;
+    padding-bottom: 68px;
+  }
+  .home-v5 .hero-copy h1 { font-size: clamp(3.5rem, 15vw, 4.9rem); }
+  .home-v5 .hero-statement { font-size: clamp(1.28rem, 5.8vw, 1.62rem); }
+  .research-spectrum-card {
+    padding: 18px;
+    border-radius: 23px;
+  }
+  .research-spectrum-card::before { left: 18px; right: 18px; }
+  .spectrum-profile { grid-template-columns: 90px minmax(0, 1fr); gap: 15px; }
+  .spectrum-portrait { width: 90px; }
+  .spectrum-list li { grid-template-columns: 36px minmax(0, 1fr) auto; gap: 9px; }
+}
+@media (max-width: 480px) {
+  .home-v5 .hero-copy h1 { font-size: clamp(3rem, 16vw, 4.2rem); }
+  .home-v5 .hero-statement { font-size: 1.27rem; }
+  .research-spectrum-card { padding: 16px; }
+  .research-spectrum-card::before { left: 16px; right: 16px; }
+  .spectrum-profile { grid-template-columns: 82px minmax(0, 1fr); gap: 13px; padding-bottom: 18px; }
+  .spectrum-portrait { width: 82px; }
+  .spectrum-profile-copy strong { font-size: 1.04rem; }
+  .spectrum-profile-copy p { font-size: .74rem; }
+  .spectrum-profile-copy small { font-size: .65rem; }
+  .spectrum-heading { padding-top: 18px; }
+  .spectrum-list li { grid-template-columns: 34px minmax(0, 1fr); min-height: 61px; }
+  .spectrum-tag { display: none; }
+  .spectrum-note { padding: 12px 13px; }
+}
+</style>
 <script>document.documentElement.classList.add('js');try{const t=localStorage.getItem('junsang-theme');if(t)document.documentElement.dataset.theme=t;else if(matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.dataset.theme='dark'}catch(e){}</script>
 </head>
 <body>
@@ -51,7 +303,7 @@
 </nav>
 </header>
 <main id="main">
-<section class="hero hero-v4 section-pad">
+<section class="hero home-v5 section-pad">
 <div class="hero-grid shell">
 <div class="hero-copy reveal">
 <div class="hero-identity">
@@ -59,8 +311,8 @@
 <span>Korea University · Seoul</span>
 </div>
 <h1>Jun-Sang <em>Yoo</em></h1>
-<p class="hero-statement"><span>From <strong>pixels</strong> to <strong>motion</strong>,</span><span>from <strong>people</strong> to <strong>language</strong>.</span></p>
-<p class="hero-lede">I am an Integrated M.S. &amp; Ph.D. student in the <a href="https://sites.google.com/view/deepiplab/home?authuser=0" rel="noopener noreferrer" target="_blank">Deep Image Processing Lab</a> at <a href="https://www.korea.ac.kr" rel="noopener noreferrer" target="_blank">Korea University</a>, advised by Prof. Seung-Won Jung. I work across the visual stack—from low-level image restoration and temporal video modeling to human-centered data and multimodal learning with text and large language models.</p>
+<p class="hero-statement">Exploring visual intelligence across <strong>images, video, human behavior,</strong> and <strong>language.</strong></p>
+<p class="hero-lede">I am an Integrated M.S. &amp; Ph.D. student in the <a href="https://sites.google.com/view/deepiplab/home?authuser=0" rel="noopener noreferrer" target="_blank">Deep Image Processing Lab</a> at <a href="https://www.korea.ac.kr" rel="noopener noreferrer" target="_blank">Korea University</a>, advised by Prof. Seung-Won Jung. My research connects low-level image restoration, temporal video modeling, human-centered understanding, and multimodal learning with text and large language models.</p>
 <div class="hero-actions">
 <a class="button button-primary" href="/publications/">View publications <svg aria-hidden="true" viewbox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
 <a class="button button-ghost" href="mailto:junsang7777@korea.ac.kr">Contact</a>
@@ -73,48 +325,48 @@
 <a aria-label="DBLP" class="social-link" href="https://dblp.org/pid/184/3613-2.html" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M5 4h10v16H5z"></path><path d="M9 1h10v16"></path><path d="M8 8h4M8 12h4M8 16h4"></path></svg><span>DBLP</span></a>
 </div>
 </div>
-<aside aria-label="Research continuum and profile" class="continuum-card reveal">
-<div class="profile-compact">
-<div class="profile-compact-image">
+<aside aria-label="Research spectrum and profile" class="research-spectrum-card reveal">
+<div class="spectrum-profile">
+<div class="spectrum-portrait">
 <img alt="Portrait of Jun-Sang Yoo" height="280" src="/assets/img/profile.webp" width="240"/>
 </div>
-<div class="profile-compact-copy">
-<span class="profile-overline">Researcher profile</span>
+<div class="spectrum-profile-copy">
+<span class="profile-label">Research profile</span>
 <strong>Jun-Sang Yoo</strong>
 <p>Integrated M.S. &amp; Ph.D. Student</p>
-<small>Electrical Engineering · Korea University</small>
+<small>Deep Image Processing Lab · Korea University</small>
 </div>
 </div>
-<div class="continuum-heading">
-<div>
-<span>Research continuum</span>
-<small>From visual signal to semantic reasoning</small>
+<div class="spectrum-heading">
+<span>Research spectrum</span>
+<small>Image · Video · Human · Language</small>
 </div>
-
-</div>
-<ol class="continuum-list">
+<ol class="spectrum-list">
 <li>
-<span class="step-number">01</span>
-<div><strong>Image</strong><small>Low-level restoration &amp; visual detail</small></div>
-<span class="step-domain">Pixels</span>
+<span class="spectrum-index">01</span>
+<div class="spectrum-copy"><strong>Image</strong><small>Low-level restoration &amp; visual detail</small></div>
+<span class="spectrum-tag">Pixels</span>
 </li>
 <li>
-<span class="step-number">02</span>
-<div><strong>Video</strong><small>Motion &amp; temporal modeling</small></div>
-<span class="step-domain">Time</span>
+<span class="spectrum-index">02</span>
+<div class="spectrum-copy"><strong>Video</strong><small>Motion &amp; temporal modeling</small></div>
+<span class="spectrum-tag">Time</span>
 </li>
 <li>
-<span class="step-number">03</span>
-<div><strong>Human</strong><small>Pose, action &amp; behavior</small></div>
-<span class="step-domain">People</span>
+<span class="spectrum-index">03</span>
+<div class="spectrum-copy"><strong>Human</strong><small>Pose, action &amp; behavior</small></div>
+<span class="spectrum-tag">Behavior</span>
 </li>
 <li>
-<span class="step-number">04</span>
-<div><strong>Language</strong><small>Multimodal learning &amp; LLMs</small></div>
-<span class="step-domain">Meaning</span>
+<span class="spectrum-index">04</span>
+<div class="spectrum-copy"><strong>Language</strong><small>Multimodal learning &amp; LLMs</small></div>
+<span class="spectrum-tag">Reasoning</span>
 </li>
 </ol>
-<p class="continuum-summary"><strong>One research trajectory, multiple modalities.</strong> Connecting image, video, human data, and text in a unified learning framework.</p>
+<div class="spectrum-note">
+<strong>One connected research direction.</strong>
+<span>Integrating visual signals, human-centered data, and language.</span>
+</div>
 </aside>
 </div>
 </section>
@@ -123,7 +375,7 @@
 <article class="fact-arc">
 <span class="fact-kicker">Research arc</span>
 <strong>Image → Video → Human → Language</strong>
-<small>From low-level visual signals to multimodal intelligence</small>
+<small>From low-level visual detail to multimodal reasoning</small>
 </article>
 <article><strong>8</strong><span>Peer-reviewed publications</span><small>International conferences &amp; IEEE journals</small></article>
 <article><strong>2021—</strong><span>Korea University</span><small>Integrated M.S. &amp; Ph.D. program</small></article>
@@ -133,7 +385,7 @@
 <div class="shell">
 <div class="section-heading reveal">
 <div><p class="eyebrow">Research</p><h2>Across the visual stack</h2></div>
-<p>My research follows a continuous path—from recovering image-level detail to modeling video dynamics, understanding people, and connecting visual data with language.</p>
+<p>My research connects image-level detail, video dynamics, human-centered understanding, and language-based multimodal learning.</p>
 </div>
 <div class="research-grid">
 <article class="research-card reveal"><span class="card-index">01</span><h3>Image Restoration</h3><p>Low-level vision for super-resolution, reference-based learning, efficient quantization, and fine-detail recovery.</p><div aria-hidden="true" class="mini-graphic pixel-graphic"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
