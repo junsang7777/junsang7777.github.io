@@ -1,5 +1,28 @@
 ---
 ---
+@article{yoo2026massmotionalignedselectivescan,
+    title     = {MASS: Motion-Aligned Selective Scan for Refinement in Flow-Based Video Frame Interpolation}, 
+    author    = {Yoo, Jun-Sang and Jung, Seung-Won},
+    journal   = {ECCV},
+    year      = {2026},
+    abstract  = {Video frame interpolation (VFI) remains a challenging task, particularly when dealing with large, non-linear motions and complex occlusions. While flow-based methods are prevalent, they often struggle with ambiguous correspondences. Recent VFI methods based on selective State Space Models (SSMs) are still limited by static grid-based scanning that misaligns with physical motion. In this paper, we propose Motion-Aligned Selective Scan (MASS), a novel framework that reformulates feature scanning from static spatial grids to dynamic motion trajectories. MASS builds a feature sequence along each pixel's flow-guided trajectory and aggregates it with an SSM. Specifically, we introduce a learnable non-linear path integration to approximate complex curved trajectories via residual velocity updates, and a velocity-aware SSM that dynamically adjusts the sampling budget and step size based on motion magnitude. This adaptive strategy allocates denser sampling to fast-motion regions while keeping static regions efficient. Furthermore, the aggregated states guide a refinement module to rectify intermediate flows and masks in an end-to-end manner. Extensive experiments indicate that MASS achieves highly competitive overall performance on standard benchmarks, establishing state-of-the-art results particularly in challenging scenarios with large displacements and complex dynamics.},
+    abbr      = {ECCV},
+    selected  = {true},
+    arxiv     = {2606.27718},
+    img_path  = {assets/img/MASS.png}
+}
+
+@article{t2m4ar,
+    title     = {T2M4AR: TEXT TO MOTION GENERATION FOR SKELETON-BASED ACTION RECOGNITION}, 
+    author    = {Jun-Sang Yoo, Hongjae Lee, Sangmin Lee, Chunfei Ma, Byeongwon Lee, and Seung-Won Jung},
+    journal   = {ICIP},
+    year      = {2026},
+    abstract  = {Skeleton-based human action recognition (HAR) has received significant attention in the industry and the research community. In particular, recent HAR methods have leveraged neural networks to capture spatial configurations and temporal dynamics encoded in skeleton data. Despite significant progress, the scarcity of real-world datasets poses a challenge in training HAR models. To address this challenge, we propose a new method of generating synthetic data for HAR, drawing inspiration from recent developments in textconditioned generative models. Our framework, called text-to-motion for skeleton-based action recognition (T2M4AR), integrates text-to-motion generation into the training loop of the HAR model so that HAR performance can be improved without modifying network architectures or inference time. We verify the effectiveness of T2M4AR by applying it to three state-of-the-art HAR models. Experimental results demonstrate that T2M4AR can increase the performance of HAR for all baseline HAR models on five benchmark datasets. },
+    abbr      = {ICIP},
+    selected  = {true},
+    img_path  = {assets/img/t2m4ar.png}
+}
+
 @article{lee2024refqsr,
     title     = {RefQSR: Reference-based Quantization for Image Super-Resolution Networks}, 
     author    = {Lee, Hongjae and Yoo, Jun-Sang and Jung, Seung-Won},
