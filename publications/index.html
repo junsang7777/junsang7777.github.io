@@ -1,4 +1,19 @@
-<!doctype html><html lang="en" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found · Jun-Sang Yoo</title><script>document.documentElement.classList.add('js')</script><link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/css/site.css"></head><body>
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications · Jun-Sang Yoo</title>
+  <meta name="description" content="Publications by Jun-Sang Yoo in computer vision, video frame interpolation, image restoration, and human understanding.">
+  <meta name="author" content="Jun-Sang Yoo">
+  <meta name="theme-color" content="#0d3344">
+  <link rel="canonical" href="https://junsang7777.github.io/publications/">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script>document.documentElement.classList.add('js');try{const t=localStorage.getItem('junsang-theme');if(t)document.documentElement.dataset.theme=t;else if(matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.dataset.theme='dark'}catch(e){}</script>
+</head>
+<body>
+
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header" data-header>
   <div class="shell header-inner">
@@ -8,7 +23,7 @@
     </a>
     <nav class="desktop-nav" aria-label="Primary navigation">
       <a href="/" >About</a>
-      <a href="/publications/" >Publications</a>
+      <a href="/publications/" aria-current="page">Publications</a>
       <a href="/#education">Education</a>
       <a href="mailto:junsang7777@korea.ac.kr">Contact</a>
     </nav>
@@ -24,11 +39,35 @@
   </div>
   <nav class="mobile-nav" aria-label="Mobile navigation" data-mobile-nav>
     <a href="/" >About</a>
-    <a href="/publications/" >Publications</a>
+    <a href="/publications/" aria-current="page">Publications</a>
     <a href="/#education">Education</a>
     <a href="mailto:junsang7777@korea.ac.kr">Contact</a>
   </nav>
-</header><main id="main" class="not-found"><div class="shell"><p class="eyebrow">404</p><h1>That page is not here.</h1><p>The address may have changed. The homepage and publication archive are available below.</p><div class="hero-actions"><a class="button button-primary" href="/">Go home <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="button button-ghost" href="/publications/">Publications</a></div></div></main>
+</header>
+<main id="main">
+  <section class="page-hero">
+    <div class="shell page-hero-grid reveal">
+      <div><p class="eyebrow">Research archive</p><h1>Publications</h1><p>Work on video motion, image restoration, human understanding, and efficient visual learning.</p></div>
+      <div class="page-hero-stat"><strong>8</strong><span>papers across<br>2022–2026</span></div>
+    </div>
+  </section>
+  <section class="section-pad publications-page">
+    <div class="shell">
+      <div class="publication-toolbar reveal" role="search">
+        <div class="year-filters" aria-label="Filter publications by year" data-year-filters></div>
+        <label class="search-field">
+          <span class="sr-only">Search publications</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg>
+          <input type="search" placeholder="Search title, venue, or author" autocomplete="off" data-publication-search>
+        </label>
+      </div>
+      <div class="results-summary" data-results-summary aria-live="polite"></div>
+      <div class="publication-list" data-publication-list></div>
+      <div class="empty-state" data-empty-state hidden><h2>No matching publications</h2><p>Try another year or a broader search term.</p><button class="button button-ghost" type="button" data-clear-filters>Clear filters</button></div>
+    </div>
+  </section>
+</main>
+
 <footer class="site-footer">
   <div class="shell footer-grid">
     <div>
@@ -47,4 +86,9 @@
     <span>© <span data-current-year>2026</span> Jun-Sang Yoo.</span>
     <span>Static HTML · Hosted on GitHub Pages</span>
   </div>
-</footer><script src="/assets/js/site.js"></script></body></html>
+</footer>
+<script src="/assets/js/publications-data.js"></script>
+<script src="/assets/js/site.js"></script>
+<script src="/assets/js/publications-page.js"></script>
+</body>
+</html>

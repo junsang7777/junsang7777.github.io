@@ -1,0 +1,15 @@
+{
+  "name": "Jun-Sang Yoo \u2014 Academic Portfolio",
+  "short_name": "Jun-Sang Yoo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8f7",
+  "theme_color": "#0d3344",
+  "icons": [
+    {
+      "src": "/assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

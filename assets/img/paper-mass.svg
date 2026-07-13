@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+<title id="title">MASS paper graphic</title>
+<desc id="desc">Motion-Aligned Selective Scan</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071a2c"/><stop offset="0.52" stop-color="#113d4b"/><stop offset="1" stop-color="#0a7c78"/></linearGradient>
+  <radialGradient id="glow" cx="75%" cy="25%" r="70%"><stop offset="0" stop-color="#8ee8d8" stop-opacity=".62"/><stop offset="1" stop-color="#8ee8d8" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<style>
+  .kicker{font:600 20px ui-sans-serif,system-ui;letter-spacing:.22em;fill:#b9fff2}
+  .title{font:800 132px ui-sans-serif,system-ui;letter-spacing:-.05em;fill:white}
+  .sub{font:500 30px ui-sans-serif,system-ui;fill:#d7f5ef}
+  .line{font:500 22px ui-sans-serif,system-ui;fill:#d8ebe8}
+</style>
+<rect width="1200" height="700" rx="36" fill="url(#bg)"/>
+<rect width="1200" height="700" rx="36" fill="url(#glow)"/>
+<g opacity=".18" stroke="#d8fff8" fill="none">
+  <path d="M-20 540 C170 430 260 620 460 505 S760 355 930 470 S1110 580 1230 420" stroke-width="4"/>
+  <path d="M-20 585 C170 475 270 665 470 550 S770 400 940 515 S1120 625 1230 465" stroke-width="2"/>
+  <path d="M710 60 L1150 60 L1150 500" stroke-width="2" stroke-dasharray="10 14"/>
+</g>
+<g transform="translate(64,62)">
+  <text class="kicker" x="0" y="0">PUBLICATION · 2026</text>
+  <text x="64" y="116" class="line">Flow-based video frame interpolation</text><text x="64" y="145" class="line">Dynamic motion trajectories</text><text x="64" y="174" class="line">ECCV 2026</text>
+</g>
+<g transform="translate(64,455)">
+  <text class="title" x="0" y="0">MASS</text>
+  <text class="sub" x="4" y="58">Motion-Aligned Selective Scan</text>
+</g>
+<g transform="translate(965,520)" opacity=".9">
+  <circle cx="0" cy="0" r="102" fill="none" stroke="#b9fff2" stroke-width="2"/>
+  <circle cx="0" cy="0" r="72" fill="none" stroke="#b9fff2" stroke-width="2" stroke-dasharray="8 10"/>
+  <path d="M-65 10 C-20 -65 30 65 72 -15" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="-65" cy="10" r="10" fill="#fff"/><circle cx="72" cy="-15" r="10" fill="#fff"/>
+</g>
+</svg>
